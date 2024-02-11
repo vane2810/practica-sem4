@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color:rgb(143, 224, 243)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box, input[type="text"] {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(56, 100, 195);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: rgb(56, 100, 195);
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #c382f1;
+    color: #010101;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
