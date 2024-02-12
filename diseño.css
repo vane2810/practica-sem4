@@ -1,6 +1,12 @@
 body {
     text-align: center;
-    background-color:rgb(143, 224, 243)
+    background-color:rgb(195, 232, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
 }
 
 .container {
@@ -8,24 +14,45 @@ body {
     justify-content: center;
 }
 
-.box, input[type="text"] {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(56, 100, 195);
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+button {
+    padding: 10px 20px;
+    background-color:  #c382f1;
+    color: #000000;
+    border: none;
     cursor: pointer;
-    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 input[type="text"] {
-    border: none;
-    outline: none;
-    background-color: rgb(56, 100, 195);
+    padding: 10px;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+label {
+    padding: 10px;
+    background-color:  #c382f1;
+    color: #000000;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.lbl{
+    padding: 10px;
+    width: 30%;
+    background-color:  #ffffff;
+    color: #000000;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+
+p {
     text-align: center;
-    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -37,7 +64,5 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-
 
 
